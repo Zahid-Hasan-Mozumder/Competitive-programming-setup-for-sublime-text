@@ -1,0 +1,7 @@
+//for decreasing execution time of cin/cout 
+//cin/cout has more time complexity than scanf/printf
+//providing the below two lines code will give cin/cout the same complexity as scanf/printf 
+
+
+ios_base::sync_with_stdio(false);
+cin.tie(NULL);
